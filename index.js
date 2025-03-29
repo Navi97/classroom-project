@@ -3,7 +3,7 @@ import {getSumGrades, getPassingGrades, getFailingGrades, getNumberOfGrades, get
 const gradesForm = document.querySelector("#grades-form");
 const yourGrade = document.querySelector("#your-grade");
 
-const grades = [12, 19, 10, 4, 15, 9];
+const grades = [12, 19, 10, 4, 15, 9, 10];
 
 const renderStats2Table = grades => {
     const tbody = document.querySelector("#stats-table2 tbody");
