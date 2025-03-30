@@ -15,9 +15,9 @@ export function getSumGrades(grades) {
 /** @param {number[]} grades */
 export function getAverageValue(grades) {
     // TODO: return the average value of all grades (sum of all grades divided by the total number of grades)
-
-    return getSumGrades(grades)/getNumberOfGrades(grades);
-
+    const average=getSumGrades(grades)/getNumberOfGrades(grades);
+    const rounded=average.toFixed(2);
+    return rounded;
 }
 
 /** @param {number[]} grades */
